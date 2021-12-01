@@ -1,12 +1,11 @@
 ## Introduction
-
-The concept of heated seats is adopted by almost every automobile company these days and in every latest model of Toyota, Honda, KIA, etc, the company is offering heated seats in the cars. Most of the companies provide heated as well as cold seats in their models that make the driving experience very comfortable especially in summers. The circuit that I will design later on in this article will be responsible for heating every type of sofa whether it be round arm sofa, square arm, hard wedge, etc. The circuit will be placed at the lower side of the sofa and the seats will automatically start heating after some time intervals. 
-
+ A Door Sensor is connected to bit 1 of Port B,and an led is connected to
+ bit 6 of port C.Write an AVR C program to monitor the door sensor and,
+  when it opens, turns on the LED without changing the state of other pins
 
 ## Features
-- The System will sense is  passenger seated or not.
--  Passenger has the access to modify the speed of a fan in the bus.
-- Low cost and robust system.
+
+- Door sensor will sense if there anyone present or not.
 - Modular Approach.
 
 ## Folder Structure
@@ -20,16 +19,15 @@ The concept of heated seats is adopted by almost every automobile company these 
 ## SWOT- Strengths, and Weakness, Opportunities Threats
 ### Strengths
 - User Friendly
-- Easy to alter the temperature inside the bus.
 - Modular Approach
 - Low cost and Robust system.
 
 ### Weakness
-- Its only applicable for those countries which are having low temperature.
+- It can ba only use for single home
 ### Opportunities
-- It can be implemented by having both Heater and AC.
+- It can be implemented other than house.
 ### Threats
-- Not suitable for average or high temperature places.
+- sometimes it may not be work.
 
 # 4W's and 1'H
 ## Who:  
@@ -48,18 +46,16 @@ A simple algorithm is used which has a simple Temperature measurement code and c
 | High Level Requirements      | Description |
 | ----------- | ----------- |
 | HLR1      | Microcontroller   |
-| HLR2   | Temperature Sensor|
-| HLR3   | Heat Generation|
-| HLR4   | Display|
-| HLR5   | Software used|
+| HLR2   | door Sensor|
+| HLR3  | Display|
+| HLR4   | Software used|
 
 ### Low Level Requirements
 | Low Level Requirements      | Description |
 | ----------- | ----------- |
-| HLR1_LLR1      | ATmega328     |
-| HLR2_LLR1   | LM35 and ADC|
+| HLR1_LLR1   | ATmega328     |
+| HLR2_LLR1   |  ADC|
 | HLR2_LLR2   | ADC with PWM-fast|
-| HLR3_LLR1   | Thermoelectric module|
-| HLR4_LLR1   |LCD and LED|
-| HLR5_LLR1   | Code Blocks with AVR GCC compiler |
+| HLR3_LLR1   |LED|
+| HLR4_LLR1   | Code Blocks with AVR GCC compiler |
 | HLR5_LLR2   | SimulIDE |

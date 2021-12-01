@@ -1,3 +1,2 @@
 # M2-Embedded_Heat Warmer
 
-The concept of heated seats is adopted by almost every automobile company these days and in every latest model of Toyota, Honda, KIA, etc, the company is offering heated seats in the cars. Most of the companies provide heated as well as cold seats in their models that make the driving experience very comfortable especially in summers. The circuit that I will design later on in this article will be responsible for heating every type of sofa whether it be round arm sofa, square arm, hard wedge, etc. The circuit will be placed at the lower side of the sofa and the seats will automatically start heating after some time intervals.

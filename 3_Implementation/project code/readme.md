@@ -18,6 +18,10 @@ if(PINB & 0b00000010)//02
 		else
 		PORTC=PORTC&0b10111111;
 	}
+	
+	
 	return 0;
+	
+	
 	}
 

@@ -13,5 +13,3 @@ if(PINB & 0b00000010)//02
 	return 0;
 	}
 
-© 2021 GitHub, Inc.
-Terms

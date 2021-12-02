@@ -7,4 +7,9 @@
 * Test plan 
 
 # Design
+* Bill of Materials
+* Simulation
+* behavioral daigram
+* Block daigram
+* structural daigram
 

@@ -6,7 +6,7 @@
 * Low level requirements
 * Test plan 
 
-# Design
+# 2_Design
 * Bill of Materials
 * Simulation
 * behavioral daigram

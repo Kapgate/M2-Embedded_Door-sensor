@@ -6,4 +6,4 @@ LED working :
 
 | ON               |                                    OFF                                         |
 |-------------------------------|-------------------------------------------------------------|
-|![LED blink](https://user-images.githubusercontent.com/94162941/144354457-7c02841c-8924-43db-9c97-1a0c1239cb59.png)
+|![LED blink (2)](https://user-images.githubusercontent.com/94162941/144354913-a146c167-d4dc-470d-86cd-5cd02b28a6a4.png)

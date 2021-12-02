@@ -13,3 +13,11 @@
 * Block daigram
 * structural daigram
 
+# 3_Implementation
+* inc
+* outputs
+* src
+* Makefile
+* door sensor.hex
+* project_main.c
+

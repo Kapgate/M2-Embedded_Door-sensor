@@ -10,3 +10,5 @@ A Door Sensor is connected to bit 1 of Port B,and an led is connected to bit 6 o
 
 # Code quality
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cf7871a4e897433092a9d273bbe29984)](https://www.codacy.com/gh/Kapgate/M2-Embedded_Door-sensor/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Kapgate/M2-Embedded_Door-sensor&amp;utm_campaign=Badge_Grade)
+
+[![cppcheck-action-test](https://github.com/Kapgate/M2-Embedded_Door-sensor/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Kapgate/M2-Embedded_Door-sensor/actions/workflows/cppcheck.yml)
